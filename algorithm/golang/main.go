@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	diff := find_the_difference.FindTheDifference("abcde", "fabcde")
+	diff := find_the_difference.FindTheDifference("abcde", "abcde")
 	str := str_haystack.FindNeedleHaystack("athalla", "atha")
 
 	fmt.Println(diff, str)
